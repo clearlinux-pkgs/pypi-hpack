@@ -4,7 +4,7 @@
 #
 Name     : pypi-hpack
 Version  : 4.0.0
-Release  : 16
+Release  : 17
 URL      : https://files.pythonhosted.org/packages/3e/9b/fda93fb4d957db19b0f6b370e79d586b3e8528b20252c729c476a2c02954/hpack-4.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/3e/9b/fda93fb4d957db19b0f6b370e79d586b3e8528b20252c729c476a2c02954/hpack-4.0.0.tar.gz
 Summary  : Pure-Python HPACK header compression
@@ -14,14 +14,11 @@ Requires: pypi-hpack-license = %{version}-%{release}
 Requires: pypi-hpack-python = %{version}-%{release}
 Requires: pypi-hpack-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: hpack
-Provides: hpack-python
-Provides: hpack-python3
-BuildRequires : pypi(pluggy)
-BuildRequires : py-python
-BuildRequires : pytest
-BuildRequires : tox
-BuildRequires : pypi(virtualenv)
+BuildRequires : pypi(py)
+BuildRequires : pypi-pluggy
+BuildRequires : pypi-pytest
+BuildRequires : pypi-tox
+BuildRequires : pypi-virtualenv
 
 %description
 ========================================
@@ -64,7 +61,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641442568
+export SOURCE_DATE_EPOCH=1649695619
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
