@@ -7,7 +7,7 @@
 #
 Name     : pypi-hpack
 Version  : 4.1.0
-Release  : 33
+Release  : 34
 URL      : https://files.pythonhosted.org/packages/2c/48/71de9ed269fdae9c8057e5a4c0aa7402e8bb16f2c6e90b3aa53327b113f8/hpack-4.1.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/2c/48/71de9ed269fdae9c8057e5a4c0aa7402e8bb16f2c6e90b3aa53327b113f8/hpack-4.1.0.tar.gz
 Summary  : Pure-Python HPACK header encoding
